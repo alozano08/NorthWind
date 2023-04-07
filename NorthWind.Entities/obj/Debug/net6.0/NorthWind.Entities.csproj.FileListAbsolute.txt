@@ -1,0 +1,12 @@
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\bin\Debug\net6.0\NorthWind.Entities.deps.json
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\bin\Debug\net6.0\NorthWind.Entities.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\bin\Debug\net6.0\NorthWind.Entities.pdb
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\obj\Debug\net6.0\NorthWind.Entities.csproj.AssemblyReference.cache
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\obj\Debug\net6.0\NorthWind.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\obj\Debug\net6.0\NorthWind.Entities.AssemblyInfoInputs.cache
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\obj\Debug\net6.0\NorthWind.Entities.AssemblyInfo.cs
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\obj\Debug\net6.0\NorthWind.Entities.csproj.CoreCompileInputs.cache
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\obj\Debug\net6.0\NorthWind.Entities.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\obj\Debug\net6.0\refint\NorthWind.Entities.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\obj\Debug\net6.0\NorthWind.Entities.pdb
+C:\ProyectoNorthWind\NorthWind\NorthWind.Entities\obj\Debug\net6.0\ref\NorthWind.Entities.dll
