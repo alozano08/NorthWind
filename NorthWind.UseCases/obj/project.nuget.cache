@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "0JBbBQV4hS81UotzKz6LIkCo9C9zI4MR3BclHwSkO6Q40fg0m4VupWIzecPqSf5MMJr7jGFtv+v0d5SnCI5mBw==",
+  "success": true,
+  "projectFilePath": "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.UseCases\\NorthWind.UseCases.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexi\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\Alexi\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\Alexi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Alexi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

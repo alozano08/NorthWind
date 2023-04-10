@@ -10,7 +10,7 @@ namespace NorthWind.Entities.Interfaces
 {
     public interface IOrderRepository
     {
-        void Crate(Order order);
+        void Create(Order order);
         IEnumerable<Order> GetOrderByEspecification(Specification<Order> specification);
     }
 }

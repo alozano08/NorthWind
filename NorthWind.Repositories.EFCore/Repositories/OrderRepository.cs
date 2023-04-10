@@ -16,7 +16,7 @@ namespace NorthWind.Repositories.EFCore.Repositories
         public OrderRepository(NorthWindContext context) =>
             Context = context;        
 
-        public void Crate(Order order)
+        public void Create(Order order)
         {
             Context.Add(order);
         }
