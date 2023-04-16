@@ -33,9 +33,9 @@ namespace NorthWind.UseCases.CreateOrder
                 ShipCity = request.ShipCity,
                 ShipCountry = request.ShipCountry,
                 ShipPostalCode = request.ShipPostalCode,
-                ShippingType = Entities.Enums.ShippingType.Road,
                 DiscountType = Entities.Enums.DiscountType.Percentage,
-                Discount = 10
+                Discount = 10,
+                ShippingType = Entities.Enums.ShippingType.Road
             };
 
             OrderRepository.Create(Order);
