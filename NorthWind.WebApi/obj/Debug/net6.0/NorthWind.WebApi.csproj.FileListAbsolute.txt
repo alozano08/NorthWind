@@ -92,3 +92,4 @@ C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\obj\Debug\net6.0\refint\NorthWin
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\obj\Debug\net6.0\NorthWind.WebApi.pdb
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\obj\Debug\net6.0\NorthWind.WebApi.genruntimeconfig.cache
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\obj\Debug\net6.0\ref\NorthWind.WebApi.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Serilog.dll

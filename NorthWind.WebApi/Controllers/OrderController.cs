@@ -4,7 +4,7 @@ using NorthWind.UseCases.CreateOrder;
 
 namespace NorthWind.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Order")]
     [ApiController]
     public class OrderController : ControllerBase
     {
@@ -12,7 +12,7 @@ namespace NorthWind.WebApi.Controllers
         public OrderController(IMediator mediator) => 
             Mediator = mediator;
 
-        [HttpPost("creater-order")]
+        [HttpPost("create-order")]
         public async Task<ActionResult<int>> CreateOrder(CreateOrderInputPort orderparams)
         {
             return await Mediator.Send(orderparams);
