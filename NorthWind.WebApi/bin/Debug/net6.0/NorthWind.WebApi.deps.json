@@ -1174,7 +1174,11 @@
       },
       "NorthWind.IoC/1.0.0": {
         "dependencies": {
+          "FluentValidation.DependencyInjectionExtensions": "11.5.2",
           "MediatR": "11.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "NorthWind.Repositories.EFCore": "1.0.0",
           "NorthWind.UseCases": "1.0.0"
         },
