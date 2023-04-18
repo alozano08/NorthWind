@@ -912,15 +912,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Serilog/2.12.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Serilog.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Serilog.dll": {}
-        }
-      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -1742,6 +1733,22 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "NorthWind.Controllers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MediatR": "11.1.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "NorthWind.Presenters": "1.0.0",
+          "NorthWind.UseCasesDTOs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Controllers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Controllers.dll": {}
+        }
+      },
       "NorthWind.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1769,6 +1776,19 @@
         },
         "runtime": {
           "bin/placeholder/NorthWind.IoC.dll": {}
+        }
+      },
+      "NorthWind.Presenters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NorthWind.UseCases": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.Presenters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Presenters.dll": {}
         }
       },
       "NorthWind.Repositories.EFCore/1.0.0": {
@@ -3161,36 +3181,6 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.0.0.nupkg.sha512",
         "runtime.native.system.nuspec"
-      ]
-    },
-    "Serilog/2.12.0": {
-      "sha512": "xaiJLIdu6rYMKfQMYUZgTy8YK7SMZjB4Yk50C/u//Z4OsvxkUfSPJy4nknfvwAC34yr13q7kcyh4grbwhSxyZg==",
-      "type": "package",
-      "path": "serilog/2.12.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net45/Serilog.dll",
-        "lib/net45/Serilog.xml",
-        "lib/net46/Serilog.dll",
-        "lib/net46/Serilog.xml",
-        "lib/net47/Serilog.dll",
-        "lib/net47/Serilog.xml",
-        "lib/net5.0/Serilog.dll",
-        "lib/net5.0/Serilog.xml",
-        "lib/net6.0/Serilog.dll",
-        "lib/net6.0/Serilog.xml",
-        "lib/netstandard1.0/Serilog.dll",
-        "lib/netstandard1.0/Serilog.xml",
-        "lib/netstandard1.3/Serilog.dll",
-        "lib/netstandard1.3/Serilog.xml",
-        "lib/netstandard2.0/Serilog.dll",
-        "lib/netstandard2.0/Serilog.xml",
-        "lib/netstandard2.1/Serilog.dll",
-        "lib/netstandard2.1/Serilog.xml",
-        "serilog.2.12.0.nupkg.sha512",
-        "serilog.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.2.3": {
@@ -6077,6 +6067,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "NorthWind.Controllers/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Controllers/NorthWind.Controllers.csproj",
+      "msbuildProject": "../NorthWind.Controllers/NorthWind.Controllers.csproj"
+    },
     "NorthWind.Entities/1.0.0": {
       "type": "project",
       "path": "../NorthWind.Entities/NorthWind.Entities.csproj",
@@ -6086,6 +6081,11 @@
       "type": "project",
       "path": "../NorthWind.IoC/NorthWind.IoC.csproj",
       "msbuildProject": "../NorthWind.IoC/NorthWind.IoC.csproj"
+    },
+    "NorthWind.Presenters/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Presenters/NorthWind.Presenters.csproj",
+      "msbuildProject": "../NorthWind.Presenters/NorthWind.Presenters.csproj"
     },
     "NorthWind.Repositories.EFCore/1.0.0": {
       "type": "project",
@@ -6110,10 +6110,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MediatR >= 11.1.0",
+      "NorthWind.Controllers >= 1.0.0",
       "NorthWind.IoC >= 1.0.0",
       "NorthWind.WebExceptionsPresenter >= 1.0.0",
-      "Serilog >= 2.12.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -6152,6 +6151,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.Controllers\\NorthWind.Controllers.csproj": {
+              "projectPath": "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.Controllers\\NorthWind.Controllers.csproj"
+            },
             "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.IoC\\NorthWind.IoC.csproj": {
               "projectPath": "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.IoC\\NorthWind.IoC.csproj"
             },
@@ -6171,14 +6173,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "MediatR": {
-            "target": "Package",
-            "version": "[11.1.0, )"
-          },
-          "Serilog": {
-            "target": "Package",
-            "version": "[2.12.0, )"
-          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"

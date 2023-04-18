@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UwKVEgaSfnSSq+xHp0IH9xSecIM21+plVaHgyWNM10fR2MfbxqYyY7vvojkB1/al3eUKdu2M0yj+9tw8jtROsw==",
+  "dgSpecHash": "w8EekV/jSwFQjoNOfyN54H/dKpEiPPnq5X62qTsZteu6SvGiJEPW0aLXkcyxrEpH1FnkJmFlBkMjUTIjC1YRaQ==",
   "success": true,
   "projectFilePath": "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.WebApi\\NorthWind.WebApi.csproj",
   "expectedPackageFiles": [
@@ -68,7 +68,6 @@
     "C:\\Users\\Alexi\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Alexi\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\Alexi\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
-    "C:\\Users\\Alexi\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
     "C:\\Users\\Alexi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Alexi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Alexi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

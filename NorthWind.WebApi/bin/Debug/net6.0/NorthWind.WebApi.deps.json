@@ -8,10 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "NorthWind.WebApi/1.0.0": {
         "dependencies": {
-          "MediatR": "11.1.0",
+          "NorthWind.Controllers": "1.0.0",
           "NorthWind.IoC": "1.0.0",
           "NorthWind.WebExceptionsPresenter": "1.0.0",
-          "Serilog": "2.12.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -668,14 +667,6 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "Serilog/2.12.0": {
-        "runtime": {
-          "lib/net6.0/Serilog.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.12.0.0"
-          }
-        }
-      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -1167,6 +1158,17 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "NorthWind.Controllers/1.0.0": {
+        "dependencies": {
+          "MediatR": "11.1.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "NorthWind.Presenters": "1.0.0",
+          "NorthWind.UseCasesDTOs": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.Controllers.dll": {}
+        }
+      },
       "NorthWind.Entities/1.0.0": {
         "runtime": {
           "NorthWind.Entities.dll": {}
@@ -1184,6 +1186,14 @@
         },
         "runtime": {
           "NorthWind.IoC.dll": {}
+        }
+      },
+      "NorthWind.Presenters/1.0.0": {
+        "dependencies": {
+          "NorthWind.UseCases": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.Presenters.dll": {}
         }
       },
       "NorthWind.Repositories.EFCore/1.0.0": {
@@ -1680,13 +1690,6 @@
       "path": "runtime.native.system/4.0.0",
       "hashPath": "runtime.native.system.4.0.0.nupkg.sha512"
     },
-    "Serilog/2.12.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xaiJLIdu6rYMKfQMYUZgTy8YK7SMZjB4Yk50C/u//Z4OsvxkUfSPJy4nknfvwAC34yr13q7kcyh4grbwhSxyZg==",
-      "path": "serilog/2.12.0",
-      "hashPath": "serilog.2.12.0.nupkg.sha512"
-    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "type": "package",
       "serviceable": true,
@@ -2093,12 +2096,22 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
+    "NorthWind.Controllers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "NorthWind.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "NorthWind.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Presenters/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
