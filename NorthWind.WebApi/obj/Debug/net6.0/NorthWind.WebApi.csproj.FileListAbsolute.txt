@@ -41,6 +41,7 @@ C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Microsoft.OpenA
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Serilog.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -92,4 +93,3 @@ C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\obj\Debug\net6.0\refint\NorthWin
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\obj\Debug\net6.0\NorthWind.WebApi.pdb
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\obj\Debug\net6.0\NorthWind.WebApi.genruntimeconfig.cache
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\obj\Debug\net6.0\ref\NorthWind.WebApi.dll
-C:\ProyectoNorthWind\NorthWind\NorthWind.WebApi\bin\Debug\net6.0\Serilog.dll

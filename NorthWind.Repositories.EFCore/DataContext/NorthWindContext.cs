@@ -39,10 +39,7 @@ namespace NorthWind.Repositories.EFCore.DataContext
                 .Property(o => o.CustomerId)
                 .IsRequired()
                 .HasMaxLength(5)
-                .IsFixedLength();
-            modelBuilder.Entity<Order>()
-                .Property(o => o.OrderDate)
-                .IsRequired();
+                .IsFixedLength(); 
             modelBuilder.Entity<Order>()
                 .Property(o => o.ShipAddress)
                 .IsRequired()

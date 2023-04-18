@@ -18,7 +18,7 @@ namespace NorthWind.IoC
             IConfiguration configuration)
         {
             services.AddDbContext<NorthWindContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("NorthWindDb")));
+            options.UseSqlServer(configuration.GetConnectionString("NorthWindDB")));
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
