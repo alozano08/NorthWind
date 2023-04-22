@@ -1,9 +1,7 @@
-﻿using NorthWind.UseCases.Common.Ports;
-
-namespace NorthWind.Presenters
+﻿namespace NorthWind.Presenters
 {
-    public  interface IPresenter<ResponseType, FormatType>: IOutputPort<ResponseType>
+    public  interface IPresenter<FormatDateYpe>
     {
-        public FormatType Content { get; }
+        public FormatDateYpe Content { get; }
     }
 }

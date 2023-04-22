@@ -60,7 +60,7 @@
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
-      "MediatR/11.1.0": {
+      "MediatR/11.0.0": {
         "type": "package",
         "dependencies": {
           "MediatR.Contracts": "1.0.1"
@@ -1737,7 +1737,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MediatR": "11.1.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "NorthWind.Presenters": "1.0.0",
           "NorthWind.UseCasesDTOs": "1.0.0"
@@ -1764,10 +1763,9 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "FluentValidation.DependencyInjectionExtensions": "11.5.2",
-          "MediatR": "11.1.0",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "NorthWind.Presenters": "1.0.0",
           "NorthWind.Repositories.EFCore": "1.0.0",
           "NorthWind.UseCases": "1.0.0"
         },
@@ -1814,9 +1812,9 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "FluentValidation": "11.5.2",
-          "MediatR": "11.1.0",
           "NorthWind.Entities": "1.0.0",
-          "NorthWind.UseCasesDTOs": "1.0.0"
+          "NorthWind.UseCasesDTOs": "1.0.0",
+          "NorthWind.UseCasesPorts": "1.0.0"
         },
         "compile": {
           "bin/placeholder/NorthWind.UseCases.dll": {}
@@ -1833,6 +1831,19 @@
         },
         "runtime": {
           "bin/placeholder/NorthWind.UseCasesDTOs.dll": {}
+        }
+      },
+      "NorthWind.UseCasesPorts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NorthWind.UseCasesDTOs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.UseCasesPorts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.UseCasesPorts.dll": {}
         }
       },
       "NorthWind.WebExceptionsPresenter/1.0.0": {
@@ -1930,17 +1941,17 @@
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
-    "MediatR/11.1.0": {
-      "sha512": "YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
+    "MediatR/11.0.0": {
+      "sha512": "8klzVGZQiA2oxZRzQFBZbdPD/IQUm9RYtfiyTDKhxDQ99Gi93+GXt1ZJjH2D7Lh7ZFHCv5XdkwbmfHEQBCatPg==",
       "type": "package",
-      "path": "mediatr/11.1.0",
+      "path": "mediatr/11.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "gradient_128x128.png",
         "lib/netstandard2.1/MediatR.dll",
         "lib/netstandard2.1/MediatR.xml",
-        "mediatr.11.1.0.nupkg.sha512",
+        "mediatr.11.0.0.nupkg.sha512",
         "mediatr.nuspec"
       ]
     },
@@ -6101,6 +6112,11 @@
       "type": "project",
       "path": "../NorthWind.UseCasesDTOs/NorthWind.UseCasesDTOs.csproj",
       "msbuildProject": "../NorthWind.UseCasesDTOs/NorthWind.UseCasesDTOs.csproj"
+    },
+    "NorthWind.UseCasesPorts/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.UseCasesPorts/NorthWind.UseCasesPorts.csproj",
+      "msbuildProject": "../NorthWind.UseCasesPorts/NorthWind.UseCasesPorts.csproj"
     },
     "NorthWind.WebExceptionsPresenter/1.0.0": {
       "type": "project",

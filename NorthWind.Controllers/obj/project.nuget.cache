@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mOvIy+YYKH7uvvaTaL5q0dF7+e/Cxkmq0Gv47wbGJfs/WUel0chgLG+bFq7dz7F/finvh1Jpug+6tmVq3yFDIw==",
+  "dgSpecHash": "hS23RYkuLZV6uUt5yweJ7pGEI23lY4OC6afIFCxeqvvztARqK0d+H4IrndO3GOoVeWTS8DxtfCv16addIUfJ6A==",
   "success": true,
   "projectFilePath": "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.Controllers\\NorthWind.Controllers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexi\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
-    "C:\\Users\\Alexi\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
-    "C:\\Users\\Alexi\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Alexi\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Alexi\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Alexi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

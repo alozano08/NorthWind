@@ -17,3 +17,5 @@ C:\ProyectoNorthWind\NorthWind\NorthWind.Presenters\obj\Debug\net6.0\NorthWind.P
 C:\ProyectoNorthWind\NorthWind\NorthWind.Presenters\obj\Debug\net6.0\refint\NorthWind.Presenters.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.Presenters\obj\Debug\net6.0\NorthWind.Presenters.pdb
 C:\ProyectoNorthWind\NorthWind\NorthWind.Presenters\obj\Debug\net6.0\ref\NorthWind.Presenters.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.Presenters\bin\Debug\net6.0\NorthWind.UseCasesPorts.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.Presenters\bin\Debug\net6.0\NorthWind.UseCasesPorts.pdb

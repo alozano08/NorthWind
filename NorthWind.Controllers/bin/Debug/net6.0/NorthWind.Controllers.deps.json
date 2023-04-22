@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "NorthWind.Controllers/1.0.0": {
         "dependencies": {
-          "MediatR": "11.1.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "NorthWind.Presenters": "1.0.0",
           "NorthWind.UseCasesDTOs": "1.0.0"
@@ -22,25 +21,6 @@
           "lib/net6.0/FluentValidation.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.5.2.0"
-          }
-        }
-      },
-      "MediatR/11.1.0": {
-        "dependencies": {
-          "MediatR.Contracts": "1.0.1"
-        },
-        "runtime": {
-          "lib/netstandard2.1/MediatR.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.1.0.0"
-          }
-        }
-      },
-      "MediatR.Contracts/1.0.1": {
-        "runtime": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
           }
         }
       },
@@ -781,9 +761,9 @@
       "NorthWind.UseCases/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.5.2",
-          "MediatR": "11.1.0",
           "NorthWind.Entities": "1.0.0",
-          "NorthWind.UseCasesDTOs": "1.0.0"
+          "NorthWind.UseCasesDTOs": "1.0.0",
+          "NorthWind.UseCasesPorts": "1.0.0"
         },
         "runtime": {
           "NorthWind.UseCases.dll": {}
@@ -792,6 +772,14 @@
       "NorthWind.UseCasesDTOs/1.0.0": {
         "runtime": {
           "NorthWind.UseCasesDTOs.dll": {}
+        }
+      },
+      "NorthWind.UseCasesPorts/1.0.0": {
+        "dependencies": {
+          "NorthWind.UseCasesDTOs": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.UseCasesPorts.dll": {}
         }
       }
     }
@@ -808,20 +796,6 @@
       "sha512": "sha512-kj/hW/iusp2zq1Vt1YPLgDj6UG0DhoJXGkLwjLwm3j7vUtRF8DVA5vHJfItG3BxDjLWJUR2pvw8fK7rnuysZNA==",
       "path": "fluentvalidation/11.5.2",
       "hashPath": "fluentvalidation.11.5.2.nupkg.sha512"
-    },
-    "MediatR/11.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
-      "path": "mediatr/11.1.0",
-      "hashPath": "mediatr.11.1.0.nupkg.sha512"
-    },
-    "MediatR.Contracts/1.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
-      "path": "mediatr.contracts/1.0.1",
-      "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",
@@ -1350,6 +1324,11 @@
       "sha512": ""
     },
     "NorthWind.UseCasesDTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.UseCasesPorts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,12 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.5.2" />
-    <PackageReference Include="MediatR" Version="11.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\NorthWind.Entities\NorthWind.Entities.csproj" />
     <ProjectReference Include="..\NorthWind.UseCasesDTOs\NorthWind.UseCasesDTOs.csproj" />
+    <ProjectReference Include="..\NorthWind.UseCasesPorts\NorthWind.UseCasesPorts.csproj" />
   </ItemGroup>
 
 </Project>

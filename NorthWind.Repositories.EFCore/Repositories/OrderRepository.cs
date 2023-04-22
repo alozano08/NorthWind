@@ -2,11 +2,6 @@
 using NorthWind.Entities.POCOEntities;
 using NorthWind.Entities.Specifications;
 using NorthWind.Repositories.EFCore.DataContext;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NorthWind.Repositories.EFCore.Repositories
 {

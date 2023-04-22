@@ -17,3 +17,5 @@ C:\ProyectoNorthWind\NorthWind\NorthWind.WebExceptionsPresneter\obj\Debug\net6.0
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebExceptionsPresneter\obj\Debug\net6.0\refint\NorthWind.WebExceptionsPresenter.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebExceptionsPresneter\obj\Debug\net6.0\NorthWind.WebExceptionsPresenter.pdb
 C:\ProyectoNorthWind\NorthWind\NorthWind.WebExceptionsPresneter\obj\Debug\net6.0\ref\NorthWind.WebExceptionsPresenter.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.WebExceptionsPresneter\bin\Debug\net6.0\NorthWind.UseCasesPorts.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.WebExceptionsPresneter\bin\Debug\net6.0\NorthWind.UseCasesPorts.pdb

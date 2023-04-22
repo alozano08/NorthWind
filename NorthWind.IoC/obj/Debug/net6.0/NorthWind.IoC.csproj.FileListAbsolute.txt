@@ -19,3 +19,7 @@ C:\ProyectoNorthWind\NorthWind\NorthWind.IoC\obj\Debug\net6.0\NorthWind.IoC.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.IoC\obj\Debug\net6.0\refint\NorthWind.IoC.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.IoC\obj\Debug\net6.0\NorthWind.IoC.pdb
 C:\ProyectoNorthWind\NorthWind\NorthWind.IoC\obj\Debug\net6.0\ref\NorthWind.IoC.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.IoC\bin\Debug\net6.0\NorthWind.Presenters.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.IoC\bin\Debug\net6.0\NorthWind.UseCasesPorts.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.IoC\bin\Debug\net6.0\NorthWind.Presenters.pdb
+C:\ProyectoNorthWind\NorthWind\NorthWind.IoC\bin\Debug\net6.0\NorthWind.UseCasesPorts.pdb

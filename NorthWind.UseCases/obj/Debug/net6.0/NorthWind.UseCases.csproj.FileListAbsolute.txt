@@ -15,3 +15,5 @@ C:\ProyectoNorthWind\NorthWind\NorthWind.UseCases\obj\Debug\net6.0\NorthWind.Use
 C:\ProyectoNorthWind\NorthWind\NorthWind.UseCases\obj\Debug\net6.0\refint\NorthWind.UseCases.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.UseCases\obj\Debug\net6.0\NorthWind.UseCases.pdb
 C:\ProyectoNorthWind\NorthWind\NorthWind.UseCases\obj\Debug\net6.0\ref\NorthWind.UseCases.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.UseCases\bin\Debug\net6.0\NorthWind.UseCasesPorts.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.UseCases\bin\Debug\net6.0\NorthWind.UseCasesPorts.pdb

@@ -19,3 +19,5 @@ C:\ProyectoNorthWind\NorthWind\NorthWind.Controllers\obj\Debug\net6.0\NorthWind.
 C:\ProyectoNorthWind\NorthWind\NorthWind.Controllers\obj\Debug\net6.0\refint\NorthWind.Controllers.dll
 C:\ProyectoNorthWind\NorthWind\NorthWind.Controllers\obj\Debug\net6.0\NorthWind.Controllers.pdb
 C:\ProyectoNorthWind\NorthWind\NorthWind.Controllers\obj\Debug\net6.0\ref\NorthWind.Controllers.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.Controllers\bin\Debug\net6.0\NorthWind.UseCasesPorts.dll
+C:\ProyectoNorthWind\NorthWind\NorthWind.Controllers\bin\Debug\net6.0\NorthWind.UseCasesPorts.pdb

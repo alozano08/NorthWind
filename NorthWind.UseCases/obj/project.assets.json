@@ -11,27 +11,6 @@
           "lib/net6.0/FluentValidation.dll": {}
         }
       },
-      "MediatR/11.1.0": {
-        "type": "package",
-        "dependencies": {
-          "MediatR.Contracts": "1.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.1/MediatR.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/MediatR.dll": {}
-        }
-      },
-      "MediatR.Contracts/1.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {}
-        }
-      },
       "NorthWind.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -50,6 +29,19 @@
         },
         "runtime": {
           "bin/placeholder/NorthWind.UseCasesDTOs.dll": {}
+        }
+      },
+      "NorthWind.UseCasesPorts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NorthWind.UseCasesDTOs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.UseCasesPorts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.UseCasesPorts.dll": {}
         }
       }
     }
@@ -78,36 +70,6 @@
         "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
-    "MediatR/11.1.0": {
-      "sha512": "YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
-      "type": "package",
-      "path": "mediatr/11.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "gradient_128x128.png",
-        "lib/netstandard2.1/MediatR.dll",
-        "lib/netstandard2.1/MediatR.xml",
-        "mediatr.11.1.0.nupkg.sha512",
-        "mediatr.nuspec"
-      ]
-    },
-    "MediatR.Contracts/1.0.1": {
-      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
-      "type": "package",
-      "path": "mediatr.contracts/1.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "gradient_128x128.png",
-        "lib/net461/MediatR.Contracts.dll",
-        "lib/net461/MediatR.Contracts.xml",
-        "lib/netstandard2.0/MediatR.Contracts.dll",
-        "lib/netstandard2.0/MediatR.Contracts.xml",
-        "mediatr.contracts.1.0.1.nupkg.sha512",
-        "mediatr.contracts.nuspec"
-      ]
-    },
     "NorthWind.Entities/1.0.0": {
       "type": "project",
       "path": "../NorthWind.Entities/NorthWind.Entities.csproj",
@@ -117,14 +79,19 @@
       "type": "project",
       "path": "../NorthWind.UseCasesDTOs/NorthWind.UseCasesDTOs.csproj",
       "msbuildProject": "../NorthWind.UseCasesDTOs/NorthWind.UseCasesDTOs.csproj"
+    },
+    "NorthWind.UseCasesPorts/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.UseCasesPorts/NorthWind.UseCasesPorts.csproj",
+      "msbuildProject": "../NorthWind.UseCasesPorts/NorthWind.UseCasesPorts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "FluentValidation >= 11.5.2",
-      "MediatR >= 11.1.0",
       "NorthWind.Entities >= 1.0.0",
-      "NorthWind.UseCasesDTOs >= 1.0.0"
+      "NorthWind.UseCasesDTOs >= 1.0.0",
+      "NorthWind.UseCasesPorts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -167,6 +134,9 @@
             },
             "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.UseCasesDTOs\\NorthWind.UseCasesDTOs.csproj": {
               "projectPath": "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.UseCasesDTOs\\NorthWind.UseCasesDTOs.csproj"
+            },
+            "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.UseCasesPorts\\NorthWind.UseCasesPorts.csproj": {
+              "projectPath": "C:\\ProyectoNorthWind\\NorthWind\\NorthWind.UseCasesPorts\\NorthWind.UseCasesPorts.csproj"
             }
           }
         }
@@ -184,10 +154,6 @@
           "FluentValidation": {
             "target": "Package",
             "version": "[11.5.2, )"
-          },
-          "MediatR": {
-            "target": "Package",
-            "version": "[11.1.0, )"
           }
         },
         "imports": [
